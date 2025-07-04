@@ -1,11 +1,11 @@
 import React from 'react'
+import Navbar from './sections/Navbar';
 
-const App = () => {
-  return (
-    <main className='max-w-7xl mx-auto'>
-      <h1 className='text-2xl text-white underline'></h1>
-    </main>
-  )
-}
+const App = () => (
+  <main className="max-w-7xl mx-auto">
+    <Navbar/>
+    <Hero/>
+  </main>
+);
 
-export default App
+export default App;
